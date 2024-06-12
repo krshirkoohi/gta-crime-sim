@@ -25,9 +25,10 @@ For GTA 5 using the LSPDFR framework.
 ## Configuration
 The `crime_sim.ini` file allows you to specify which vehicles are considered stolen for the purposes of the callouts. Edit this file to include the vehicle model names, separated by commas.
 
+## Todo
+Police escort script, using a convoy of vehicles driving to a set location, with 'surprises' along the route.
+
 ### Example `crime_sim.ini`
 ```ini
 Stolen Vehicles=baller2,baller3,buffalo
 
-## Todo
-Police escort script, using a convoy of vehicles driving to a set location, with 'surprises' along the route.
