@@ -20,7 +20,7 @@ For GTA 5 using the LSPDFR framework.
 3. Build the source code files `Main.cs`, `PoliceEscort.cs`, `StolenMoped.cs`, `StolenVehicle.cs` using Microsoft Visual Studio C# for the build **.NET Framework 4.6** (very important) to get the `crime_sim.dll` file.
 4. If any errors come up during build, make sure there's a reference to the following files `LSPD First Response.dll`, `NAudio.dll`, and `RagePluginHookSDK.dll` in your `.csproj` or `.sln` file
 5. Place the `crime_sim.dll`, and `crime_sim.ini` files in the `Plugins/LSPDFR` directory of your GTA V installation.
-6. Compile the C# files into a DLL and place the compiled DLL in the `Plugins` directory.
+6. You can access this callout pack by going 'On Duty' in the LSPDFR mod.
 
 ## Configuration
 The `crime_sim.ini` file allows you to specify which vehicles are considered stolen for the purposes of the callouts. Edit this file to include the vehicle model names, separated by commas.
