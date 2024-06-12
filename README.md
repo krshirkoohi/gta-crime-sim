@@ -28,3 +28,6 @@ The `crime_sim.ini` file allows you to specify which vehicles are considered sto
 ### Example `crime_sim.ini`
 ```ini
 Stolen Vehicles=baller2,baller3,buffalo
+
+## Todo
+Police escort script, using a convoy of vehicles driving to a set location, with 'surprises' along the route.
