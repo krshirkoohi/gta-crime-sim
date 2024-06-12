@@ -14,6 +14,9 @@ For GTA 5 using the LSPDFR framework.
 - **StolenMoped.cs:** Manages callouts for stolen mopeds.
 - **StolenVehicle.cs:** Handles callouts for stolen vehicles.
 - **crime_sim.ini:** Configuration file for customizing the plugin settings.
+- 
+## Todo
+Police escort script, using a convoy of vehicles driving to a set location, with 'surprises' along the route.
 
 ## Installation
 1. Ensure you have LSPDFR installed along with the necessary dependencies.
@@ -24,9 +27,6 @@ For GTA 5 using the LSPDFR framework.
 
 ## Configuration
 The `crime_sim.ini` file allows you to specify which vehicles are considered stolen for the purposes of the callouts. Edit this file to include the vehicle model names, separated by commas.
-
-## Todo
-Police escort script, using a convoy of vehicles driving to a set location, with 'surprises' along the route.
 
 ### Example `crime_sim.ini`
 ```ini
